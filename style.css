@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    position: relative;
+    height: 90vh;
+    background-color: aquamarine;
+    
+}
+
+header nav{
+    height: 90px;
+    background-color: rebeccapurple;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+}
+nav h2{
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+}
+
+
+section{
+    height: 120vh;
+    background-color: tomato;
+}
